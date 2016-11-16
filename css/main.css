@@ -1,6 +1,21 @@
 /* Hint! the @font-face rule needs to be the first thing in your CSS file!*/
 
+@font-face {
+    font-family: 'alegreya_sans_sclight';
+    src: url('../fonts/alegreyasanssc-light-webfont.woff2') format('woff2'),
+         url('../fonts/alegreyasanssc-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 
+}
+@font-face {
+    font-family: 'andadaregular';
+    src: url('../fonts/andada-regular-webfont.woff2') format('woff2'),
+         url('../fonts/andada-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 /* Start the CSS*/
 body {
 	margin: 0;
@@ -21,30 +36,35 @@ body {
 	box-shadow: 0px 0px 15px 5px rgba(0,0,0,.15);
 }
 
-h1 {
+h1 { font-family: "andadaregular";
 
 }
 
-h2 {
+h2 {font-family: "andadaregular";
+
 
 }
 
-h3 {
+h3 {font-family: "andadaregular";
+
 
 }
 
-h4 {
+h4 {font-family: "andadaregular";
+
 
 }
 
-h5 {
+h5 {font-family: "andadaregular";
+
 
 }
 
-h6 {
+h6 {font-family: "andadaregular";
+
 
 }
 
-p {
+p { font-family: 'alegreya_sans_sclight';
 
 }
